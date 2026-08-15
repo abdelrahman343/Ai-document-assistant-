@@ -80,6 +80,20 @@ Then:
 
 ---
 
+# 📸 Demo
+
+**Chat** — ask a question, get an answer grounded in the uploaded document:
+
+![Chat demo](screenshots/1.PNG)
+
+**Summary** — one-click overview of the document's key topics and details:
+
+![Summary demo](screenshots/2.PNG)
+
+**Suggested Questions** — auto-generated starter questions for the document:
+
+![Suggested questions demo](screenshots/3.PNG)
+
 ---
 
 # 📈 Results
