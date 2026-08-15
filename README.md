@@ -40,7 +40,7 @@ Under the hood it combines dense (embedding-based) and sparse (keyword-based) re
 
 * **Frontend**: Streamlit
 * **LLM**: Groq (Llama 3.3 70B)
-* **Embeddings**: Sentence-Transformers (`BAAI/bge-small-en-v1.5`)
+* **Embeddings**: Sentence-Transformers (`paraphrase-multilingual-MiniLM-L12-v2`, multilingual — supports Arabic and 50+ other languages)
 * **Vector Search**: FAISS
 * **Keyword Search**: BM25 (`rank_bm25`)
 * **Document Parsing**: PyMuPDF (PDF), python-docx, python-pptx
@@ -51,8 +51,8 @@ Under the hood it combines dense (embedding-based) and sparse (keyword-based) re
 # ⚙️ Installation
 
 ```bash
-git clone <your-repo-url>
-cd <your-repo-folder>
+git clone https://github.com/abdelrahman343/Ai-document-assistant-.git
+cd Ai-document-assistant-
 pip install -r requirements.txt
 ```
 
